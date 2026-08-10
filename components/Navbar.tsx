@@ -46,12 +46,16 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center text-[13px] font-medium text-paper bg-ink hover:bg-accent-strong transition-colors px-4 py-2 rounded-full"
-        >
-          Let&apos;s talk
-        </a>
+        <div className="hidden md:flex items-center gap-4">
+          <ThemeToggle />
+
+          <a href="#contact"
+            className="inline-flex items-center text-[13px] font-medium text-paper bg-ink hover:bg-accent-strong 
+            transition-colors px-4 py-2 rounded-full"
+            >
+            Let&apos;s talk
+            </a>
+        </div>
 
         <button
           onClick={() => setOpen((v) => !v)}
