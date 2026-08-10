@@ -1,0 +1,172 @@
+// All content below is sourced directly from Maulana's CV.
+// Update here to update the whole site.
+
+export const profile = {
+  name: "Maulana Jidan Azizi",
+  initials: "MJ",
+  role: "Software Engineering Student · AI & Backend Engineering",
+  location: "Tangerang Selatan, Indonesia",
+  phone: "+62 817-7484-3715",
+  email: "maulanajidanazizi@gmail.com",
+  github: "JidanAzizi",
+  githubUrl: "https://github.com/JidanAzizi",
+  linkedinLabel: "Maulana Jidan Azizi",
+  // The CV lists a display name, not a profile slug — verify/update this URL.
+  linkedinUrl: "https://www.linkedin.com/in/maulana-jidan-azizi",
+  about:
+    "I'm a Software Engineering undergraduate at Telkom University with hands-on experience in backend web development, software construction, and database systems. I enjoy solving problems, collaborating with teams, and building structured, reliable software — and I'm continuously sharpening my skills through practical, fast-paced projects, with a growing focus on AI engineering.",
+};
+
+export type ExperienceItem = {
+  role: string;
+  org: string;
+  year: string;
+  points: string[];
+  featured?: boolean;
+};
+
+export const experience: ExperienceItem[] = [
+  {
+    role: "AI Engineering Intern",
+    org: "AI Engineering Internship",
+    year: "2026",
+    featured: true,
+    points: [
+      "Developed a WhatsApp-based rapid response bot to facilitate communication between residents and relevant authorities for emergency incidents such as theft, robbery, and fire.",
+      "Implemented automated incident-handling workflows while collaborating with the development team, managing tasks effectively, and meeting project requirements and timelines.",
+    ],
+  },
+  {
+    role: "Lecturer Assistant, Database Course",
+    org: "Telkom University",
+    year: "2026",
+    points: [
+      "Assisted lecturers in teaching database systems, SQL queries, normalization, and relational database concepts.",
+      "Supported students during practical sessions and helped review assignments and database design tasks.",
+    ],
+  },
+  {
+    role: "Teaching Assistant, Software Construction Course",
+    org: "Telkom University",
+    year: "2026",
+    points: [
+      "Evaluated assignments and supported students in understanding object-oriented programming and software engineering concepts.",
+      "Guided students in debugging, code structure improvement, and software development best practices.",
+    ],
+  },
+  {
+    role: "Computational Thinking Instructor",
+    org: "Technology for Society Program",
+    year: "2025",
+    points: [
+      "Delivered computational thinking lessons to elementary school students through interactive activities covering problem-solving, logical reasoning, pattern recognition, and algorithmic thinking.",
+      "Facilitated classroom activities while strengthening communication, public speaking, teamwork, and time management skills.",
+    ],
+  },
+  {
+    role: "Web Development",
+    org: "Central Computer Improvement",
+    year: "2025",
+    points: [
+      "Developed and maintained backend components for web-based projects, focusing on data processing, API integration, and system logic.",
+      "Collaborated with team members to implement functional features and support project requirements.",
+    ],
+  },
+  {
+    role: "Member, Human Resource Development Division",
+    org: "Software Engineering Student Association",
+    year: "2024 — 2025",
+    points: [
+      "Contributed to student development programs aimed at improving academic, soft skills, and organizational competence.",
+      "Assisted in organizing training, mentoring, and evaluation activities for members.",
+    ],
+  },
+  {
+    role: "English Camp",
+    org: "Intensive English Program",
+    year: "2019",
+    points: [
+      "Actively engaged in intensive English communication activities, improving speaking, listening, and academic communication skills.",
+      "Participated in group discussions, presentations, and collaborative tasks conducted fully in English.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "Bachelor of Software Engineering",
+    school: "Telkom University",
+    year: "2023 — Present",
+  },
+  {
+    degree: "Senior High School — Science Major (IPA)",
+    school: "SMAN 9 Tangerang Selatan",
+    year: "2020 — 2023",
+  },
+];
+
+export const skills = [
+  {
+    category: "Programming Languages",
+    items: ["Java", "Python", "JavaScript", "TypeScript", "C#", "Go", "C++", "PHP"],
+  },
+  {
+    category: "Web Development",
+    items: ["HTML", "CSS", "Node.js"],
+  },
+  {
+    category: "Database",
+    items: ["MySQL", "MongoDB", "PostgreSQL", "Supabase"],
+  },
+  {
+    category: "Tools",
+    items: ["Git", "GitHub", "VS Code", "Visual Studio", "Google Colab", "Katalon Studio", "Postman", "Figma"],
+  },
+  {
+    category: "Soft Skills",
+    items: [
+      "Problem Solving",
+      "Teamwork & Collaboration",
+      "Time Management",
+      "Adaptability",
+      "Communication",
+      "Organizational Skills",
+    ],
+  },
+  {
+    category: "Languages",
+    items: ["English", "Indonesian"],
+  },
+];
+
+export const certifications = [
+  "Leadership Certificate",
+  "Self-Management Certificate",
+  "Technopreneurship Certificate",
+  "Department Orientation Program Certificate",
+  "Kaggle — Intro to Deep Learning Certificate",
+  "Kaggle — Time Series Certificate",
+  "Kaggle — Intro to Machine Learning Certificate",
+  "Kaggle — Intermediate Machine Learning Certificate",
+];
+
+export const awards = [
+  {
+    title: "3rd Place Winner — The Hack Competition",
+    org: "Central Computer Improvement",
+  },
+  {
+    title: "Staff of the Month",
+    org: "Software Engineering Student Association",
+  },
+];
+
+export const nav = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
+  { label: "Education", href: "#education" },
+  { label: "Skills", href: "#skills" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Contact", href: "#contact" },
+];
