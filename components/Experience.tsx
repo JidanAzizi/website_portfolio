@@ -66,7 +66,7 @@ export default function Experience() {
                     key={idx}
                     src={src}
                     alt={`${item.role} at ${item.org} — photo ${idx + 1}`}
-                    className="w-full aspect-[4/3] object-cover rounded-xl border border-line grayscale hover:grayscale-0 transition-all duration-500"
+                    className="w-full aspect-[4/3] object-cover rounded-xl border border-line"
                   />
                 ) : (
                   <div
