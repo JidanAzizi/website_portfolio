@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 
 export default function About() {
   return (
-    <section id="about" className="max-w-content mx-auto px-6 sm:px-8 py-24 sm:py-32">
+    <section id="about" className="max-w-content mx-auto px-6 sm:px-8 py-20 sm:py-32">
       <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-10 md:gap-16">
         <Reveal>
           <SectionHeading eyebrow="about" title="A little about me" />

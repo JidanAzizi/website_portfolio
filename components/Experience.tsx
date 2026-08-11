@@ -1,4 +1,5 @@
 import { experience } from "@/lib/data";
+import { ImageIcon } from "./Icons";
 import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
 
@@ -57,6 +58,29 @@ export default function Experience() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-6 grid grid-cols-3 gap-3 sm:gap-5">
+              {(item.images ?? ["", "", ""]).map((src, idx) =>
+                src ? (
+                  <img
+                    key={idx}
+                    src={src}
+                    alt={`${item.role} at ${item.org} — photo ${idx + 1}`}
+                    className="w-full aspect-[4/3] object-cover rounded-xl border border-line grayscale hover:grayscale-0 transition-all duration-500"
+                  />
+                ) : (
+                  <div
+                    key={idx}
+                    className="w-full aspect-[4/3] rounded-xl border border-dashed border-line-strong flex flex-col items-center justify-center gap-1.5 text-ink-faint"
+                  >
+                    <ImageIcon className="w-5 h-5" />
+                    <span className="font-mono text-[11px] hidden sm:inline">
+                      Add photo
+                    </span>
+                  </div>
+                )
+              )}
+            </div>
           </Reveal>
         ))}
       </ol>

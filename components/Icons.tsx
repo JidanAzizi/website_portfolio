@@ -79,6 +79,23 @@ export function MoonIcon({ className = "w-[18px] h-[18px]" }: { className?: stri
   );
 }
 
+export function ImageIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      className={className}
+      aria-hidden="true"
+    >
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <circle cx="9" cy="9" r="1.7" />
+      <path d="m3 16 5.5-5.5a2 2 0 0 1 2.8 0L17 16M14 13l1.3-1.3a2 2 0 0 1 2.8 0L21 14.4" />
+    </svg>
+  );
+}
+
 export function PhoneIcon({ className = "w-5 h-5" }: { className?: string }) {
   return (
     <svg
