@@ -12,6 +12,7 @@ export const profile = {
   githubUrl: "https://github.com/JidanAzizi",
   linkedinLabel: "Maulana Jidan Azizi",
   linkedinUrl: "https://www.linkedin.com/in/maulana-jidan-azizi-508824283/",
+  photo: "Profile/SelfPhoto.png",
   about:
     "I'm a Software Engineering undergraduate at Telkom University with hands-on experience in backend web development, software construction, and database systems. I enjoy solving problems, collaborating with teams, and building structured, reliable software — and I'm continuously sharpening my skills through practical, fast-paced projects, with a growing focus on AI engineering.",
 };
