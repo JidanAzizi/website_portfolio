@@ -122,7 +122,7 @@ export const education = [
 export const skills = [
   {
     category: "Programming Languages",
-    items: ["Java", "Python", "JavaScript", "TypeScript", "C#", "Go", "C++", "PHP"],
+    items: ["Java", "Python", "JavaScript", "TypeScript", "C#", "Go", "C++", "PHP", "SQL"],
   },
   {
     category: "Web Development",
@@ -154,14 +154,14 @@ export const skills = [
 ];
 
 export const certifications = [
-  "Leadership Certificate",
-  "Self-Management Certificate",
-  "Technopreneurship Certificate",
-  "Department Orientation Program Certificate",
-  "Kaggle — Intro to Deep Learning Certificate",
-  "Kaggle — Time Series Certificate",
-  "Kaggle — Intro to Machine Learning Certificate",
-  "Kaggle — Intermediate Machine Learning Certificate",
+  {name: "Leadership Certificate", file:"Certificate/Sertifikat_Leadership.pdf"},
+  {name: "Self-Management Certificate", file:"Certificate/Sertifikat_Self-Management.pdf"},
+  {name: "Technopreneurship Certificate", file:"Certificate/Sertifikat_Technopreneurship.pdf"},
+  {name: "Department Orientation Program Certificate", file:"Certificate/MAULANA JIDAN AZIZI - SQL PANITIA.png"},
+  {name: "Kaggle — Intro to Deep Learning Certificate", file:"Certificate/Jidan Azizi - Intro to Deep Learning.pdf"},
+  {name: "Kaggle — Time Series Certificate", file:"Certificate/Jidan Azizi - Time Series.pdf"},
+  {name: "Kaggle — Intro to Machine Learning Certificate", file:"Certificate/Jidan Azizi - Intro to Machine Learning.pdf"},
+  {name: "Kaggle — Intermediate Machine Learning Certificate", file:"Certificate/Jidan Azizi - Intermediate Machine Learning.pdf"},
 ];
 
 export const awards = [

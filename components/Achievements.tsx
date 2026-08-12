@@ -1,4 +1,5 @@
 import { awards, certifications } from "@/lib/data";
+import { ArrowUpRightIcon } from "./Icons";
 import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
 
@@ -17,13 +18,30 @@ export default function Achievements() {
           <h3 className="font-mono text-[12px] tracking-wide text-ink-faint uppercase mb-5">
             Certifications
           </h3>
-          <ul className="space-y-3">
+          <ul className="space-y-4">
             {certifications.map((cert) => (
               <li
-                key={cert}
-                className="text-[15px] text-ink-soft leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-1.5 before:bg-accent before:rounded-full"
+                key={cert.name}
+                className="flex items-start justify-between gap-4 pl-4 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-1.5 before:bg-accent before:rounded-full"
               >
-                {cert}
+                <span className="text-[15px] text-ink-soft leading-relaxed flex-1">
+                  {cert.name}
+                </span>
+                {cert.file ? (
+                  <a
+                    href={cert.file}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 inline-flex items-center gap-1 font-mono text-[11px] text-accent border border-accent/40 hover:bg-accent-soft transition-colors rounded-full px-2.5 py-1"
+                  >
+                    View
+                    <ArrowUpRightIcon className="w-3 h-3" />
+                  </a>
+                ) : (
+                  <span className="shrink-0 font-mono text-[11px] text-ink-faint border border-dashed border-line-strong rounded-full px-2.5 py-1">
+                    Add file
+                  </span>
+                )}
               </li>
             ))}
           </ul>
