@@ -4,7 +4,7 @@
 export const profile = {
   name: "Maulana Jidan Azizi",
   initials: "MJ",
-  role: "Software Engineering Student · AI & Backend Engineering",
+  role: "Software Engineering Student",
   location: "Tangerang Selatan, Indonesia",
   phone: "+62 817-7484-3715",
   email: "maulanajidanazizi@gmail.com",

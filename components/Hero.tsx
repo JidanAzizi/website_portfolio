@@ -1,5 +1,5 @@
 import { profile } from "@/lib/data";
-import { GithubIcon, LinkedinIcon, ArrowUpRightIcon, ImageIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon, ArrowUpRightIcon, ImageIcon, DownloadIcon } from "./Icons";
 
 export default function Hero() {
   return (
@@ -34,18 +34,26 @@ export default function Hero() {
             className="mt-10 flex flex-wrap items-center gap-4 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.34s" }}
           >
-            <a
-              href="#experience"
+            
+             <a href="#experience"
               className="inline-flex items-center gap-2 bg-ink text-paper text-[14px] font-medium px-5 py-3 rounded-full hover:bg-accent-strong transition-colors"
             >
               View my work
               <ArrowUpRightIcon className="w-4 h-4" />
             </a>
-            <a
-              href="#contact"
+            
+             <a href="#contact"
               className="inline-flex items-center gap-2 border border-line-strong text-ink text-[14px] font-medium px-5 py-3 rounded-full hover:border-ink transition-colors"
             >
               Contact me
+            </a>
+            <a
+              href="CV/CV_Maulana_Jidan_Azizi.pdf"
+              download
+              className="inline-flex items-center gap-2 border border-line-strong text-ink text-[14px] font-medium px-3 py-3 rounded-full hover:border-ink transition-colors"
+            >
+              Download CV
+              <DownloadIcon className="w-4 h-4" />
             </a>
           </div>
 

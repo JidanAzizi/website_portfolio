@@ -97,7 +97,7 @@ export default function Contact() {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Jane Doe"
+                placeholder="..."
                 className="w-full bg-transparent border-b border-line-strong pb-3 text-[15px] text-ink placeholder:text-ink-faint focus:border-accent transition-colors outline-none"
               />
             </div>

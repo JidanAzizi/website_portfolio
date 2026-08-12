@@ -96,6 +96,24 @@ export function ImageIcon({ className = "w-5 h-5" }: { className?: string }) {
   );
 }
 
+export function DownloadIcon({ className = "w-4 h-4" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5" />
+      <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" />
+    </svg>
+  );
+}
+
 export function PhoneIcon({ className = "w-5 h-5" }: { className?: string }) {
   return (
     <svg
