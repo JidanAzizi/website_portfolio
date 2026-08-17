@@ -22,7 +22,7 @@ export default function Achievements() {
             {certifications.map((cert) => (
               <li
                 key={cert.name}
-                className="flex items-start justify-between gap-4 pl-4 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-1.5 before:bg-accent before:rounded-full"
+                className="flex items-start justify-between gap-4 pl-0 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1.5 before:h-1.5 before:bg-accent before:rounded-full"
               >
                 <span className="text-[15px] text-ink-soft leading-relaxed flex-1">
                   {cert.name}

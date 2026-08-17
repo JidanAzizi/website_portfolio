@@ -18,7 +18,6 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
     try {
       localStorage.setItem("theme", next ? "dark" : "light");
     } catch {
-      // localStorage unavailable — theme just won't persist
     }
   }
 

@@ -119,7 +119,7 @@ export default function Contact() {
             </div>
             <a
               href={mailtoHref}
-              className="inline-flex items-center gap-2 bg-ink text-paper text-[14px] font-medium px-5 py-3 rounded-full hover:bg-accent-strong transition-colors"
+              className="inline-flex items-center gap-2 bg-ink text-paper text-[14px] font-medium px-0 py-3 rounded-full hover:bg-accent-strong transition-colors"
             >
               Send message
               <ArrowUpRightIcon className="w-4 h-4" />

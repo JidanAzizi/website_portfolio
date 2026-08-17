@@ -110,7 +110,7 @@ export const education = [
   {
     degree: "Bachelor of Software Engineering",
     school: "Telkom University",
-    year: "2023 — Present",
+    year: "2023 — present",
   },
   {
     degree: "Senior High School — Science Major (IPA)",
