@@ -31,8 +31,8 @@ export const experience: ExperienceItem[] = [
     role: "AI Engineering Intern",
     org: "AI Engineering Internship",
     year: "2026",
-    featured: true,
-    images: [" ", " ", " "],
+    featured: false,
+    images: ["Experience/INTERN(IKB)1.jpeg", "Experience/INTERN(IKB)2.jpeg", ""],
     points: [
       "Developed a WhatsApp-based rapid response bot to facilitate communication between residents and relevant authorities for emergency incidents such as theft, robbery, and fire.",
       "Implemented automated incident-handling workflows while collaborating with the development team, managing tasks effectively, and meeting project requirements and timelines.",
@@ -43,10 +43,19 @@ export const experience: ExperienceItem[] = [
     org: "Telkom University",
     year: "2026",
     featured: false,
-    images: [" ", " ", " "],
     points: [
       "Assisted lecturers in teaching database systems, SQL queries, normalization, and relational database concepts.",
       "Supported students during practical sessions and helped review assignments and database design tasks.",
+    ],
+  },
+  {
+    role: "Teaching Assistant, Software Architecture and Design Course",
+    org: "Telkom University",
+    year: "2026",
+    featured: false,
+    points: [
+      "Assisted lecturers in conducting practical sessions on software architecture and design, covering GUI, MVP, SOLID principles, and software design implementation",
+      "Guided students in implementing Spring Boot APIs and understanding Monolithic and Microservices architectures through hands-on assignmanets.",
     ],
   },
   {
@@ -54,7 +63,6 @@ export const experience: ExperienceItem[] = [
     org: "Telkom University",
     year: "2026",
     featured: false,
-    images: [" ", " ", " "],
     points: [
       "Evaluated assignments and supported students in understanding object-oriented programming and software engineering concepts.",
       "Guided students in debugging, code structure improvement, and software development best practices.",
@@ -76,7 +84,6 @@ export const experience: ExperienceItem[] = [
     org: "Central Computer Improvement",
     year: "2025",
     featured: false,
-    images: [" ", " ", " "],
     points: [
       "Developed and maintained backend components for web-based projects, focusing on data processing, API integration, and system logic.",
       "Collaborated with team members to implement functional features and support project requirements.",
@@ -87,7 +94,6 @@ export const experience: ExperienceItem[] = [
     org: "Software Engineering Student Association",
     year: "2024 — 2025",
     featured: false,
-    images: [" ", " ", " "],
     points: [
       "Contributed to student development programs aimed at improving academic, soft skills, and organizational competence.",
       "Assisted in organizing training, mentoring, and evaluation activities for members.",
@@ -98,7 +104,6 @@ export const experience: ExperienceItem[] = [
     org: "Intensive English Program",
     year: "2019",
     featured: false,
-    images: [" ", " ", " "],
     points: [
       "Actively engaged in intensive English communication activities, improving speaking, listening, and academic communication skills.",
       "Participated in group discussions, presentations, and collaborative tasks conducted fully in English.",

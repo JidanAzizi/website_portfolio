@@ -59,8 +59,9 @@ export default function Experience() {
               ))}
             </ul>
 
+          {item.images &&(
             <div className="mt-6 grid grid-cols-3 gap-3 sm:gap-5">
-              {(item.images ?? ["", "", ""]).map((src, idx) =>
+              {item.images.map((src, idx) =>
                 src ? (
                   <img
                     key={idx}
@@ -81,6 +82,7 @@ export default function Experience() {
                 )
               )}
             </div>
+            )}
           </Reveal>
         ))}
       </ol>
