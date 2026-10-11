@@ -29,10 +29,10 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     role: "AI Engineering Intern",
-    org: "AI Engineering Internship",
+    org: "PT. Instalasi Kecerdasan Buatan",
     year: "2026",
     featured: false,
-    images: ["Experience/INTERN(IKB)1.jpeg", "Experience/INTERN(IKB)2.jpeg", ""],
+    images: ["Experience/INTERN(IKB)1.jpeg", "Experience/INTERN(IKB)2.jpeg", "Experience/INTERN(IKB)3.jpeg"],
     points: [
       "Developed a WhatsApp-based rapid response bot to facilitate communication between residents and relevant authorities for emergency incidents such as theft, robbery, and fire.",
       "Implemented automated incident-handling workflows while collaborating with the development team, managing tasks effectively, and meeting project requirements and timelines.",
@@ -56,6 +56,15 @@ export const experience: ExperienceItem[] = [
     points: [
       "Assisted lecturers in conducting practical sessions on software architecture and design, covering GUI, MVP, SOLID principles, and software design implementation",
       "Guided students in implementing Spring Boot APIs and understanding Monolithic and Microservices architectures through hands-on assignmanets.",
+    ],
+  },
+  {
+    role: "Software Development - Recruitment System Bakrie & Brothers",
+    org: "Bakrie & Brothers",
+    year: "2026",
+    featured: false,
+    points: [
+      "Developed a simple recruitment form application for Bakrie & Brothers using Python and PostgreSQL. The application was designed to support the employee recruitment process through a structured form-based interface and database integration.",
     ],
   },
   {
