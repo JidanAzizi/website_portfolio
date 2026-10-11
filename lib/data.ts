@@ -140,7 +140,7 @@ export const skills = [
   },
   {
     category: "Web Development",
-    items: ["HTML", "CSS", "Node.js"],
+    items: ["HTML", "CSS", "Node.js", "Next.js", "React.js"],
   },
   {
     category: "Database",
